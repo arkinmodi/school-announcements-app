@@ -1,0 +1,46 @@
+/* ARKIN MODI * ICS3UR-A * DECEMBER 09, 2015 */
+
+/*************************************
+************** NAVBAR ****************
+*************************************/
+nav {
+  color: #fff;
+  background-color: #FF5722;
+  width: 100%;
+  height: 56px;
+  line-height: 56px; }
+  nav a {
+    color: #fff; }
+  nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+      width: auto;
+  }
+a {
+    text-decoration: none;
+    color: black;
+    font-family:raleway;
+    font-weight: 200;
+}
+a.navTitle {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    white-space: nowrap;
+    margin-left: 0.5%;
+  }
+
+/*************************************
+************* DROPDOWN ***************
+*************************************/
+#categoryFilter {
+    width: 20%;
+    height: 150px;
+}
+#genderSelect {
+    width: 20%;
+}
+#gradeSelect {
+    width: 20%;
+}

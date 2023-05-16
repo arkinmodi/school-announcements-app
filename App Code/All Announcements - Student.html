@@ -1,0 +1,59 @@
+<!-- ARKIN MODI * ICS3UR-A * DECEMBER 28, 2015 -->
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="All%20Announcements.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="materialize.css">
+    <script src="All%20Announcements.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!------------------------------------------------------- TAB HEADER ---------------------------------------------------->
+    <head>
+        <title>NPSS Announcements - All Announcements</title>
+        <link rel="icon" href="NPSS%20Viking.png" type="image/gif" sizes="24x24">
+    </head>
+<!--------------------------------------------------------- NAVBAR ------------------------------------------------------>
+    <body>        
+    <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a class="brand-logo">NPSS Announcements</a>
+        <ul class="right hide-on-med-and-down">
+               <li><a href="Announcement%20Filter%20-%20Student.html">Home</a></li>
+               <li class="active"><a href="All%20Announcements%20-%20Student.html">All Announcements</a></li>
+               <li><a href="Help%20&%20Settings%20-%20Student.html">Help & Settings</a></li>
+               <li><a href="Logout.html">Log Out</a></li>
+        </ul>
+    </div>
+    </nav>
+    </div>
+<!------------------------------------------------------- CARD --------------------------------------------------------->
+            <div class="row">
+            <div class="cols12m6">
+            <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+<!------------------------------------------------------- TITLE -------------------------------------------------------->
+                <center><span class="card-title" id="announcementTitle"></span></center>
+<!---------------------------------------------------- TEACHER NAME ---------------------------------------------------->
+                    <center><span id="announcementUserName"></span></center>
+        <br>
+<!---------------------------------------------------- TIME & DATE ----------------------------------------------------->
+                    <center><span id="announcementTime"></span>&nbsp•&nbsp<span id="announcementDate"></span></center>
+        <br>
+<!------------------------------------------------------ CONTENT ------------------------------------------------------->
+                    <p id="announcementContent"></p>
+            </div>
+<!------------------------------------------------------- TAG ---------------------------------------------------------->
+                <div class="card-action">
+                        <div class="chip" id="tagClubSelect">
+                        </div>
+                </div>  
+            </div>
+            </div>
+            </div>
+<!------------------------------------------------- GET ANNOUNCEMENT --------------------------------------------------->
+            <script>
+            window.onload = getPost();
+            </script>
+    </body>
+</html>

@@ -1,0 +1,100 @@
+<!-- ARKIN MODI * ICS3UR-A * DECEMBER 07, 2015 -->
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="Announcement%20Creation.css">
+    <link rel="stylesheet" href="materialize.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="Announcement%20Creation.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!------------------------------------------------------- TAB HEADER ---------------------------------------------------->
+    <head>
+        <title>NPSS Announcements - Create Announcement</title>
+        <link rel="icon" href="NPSS%20Viking.png" type="image/gif" sizes="16x16">
+    </head>
+<!--------------------------------------------------------- NAVBAR ------------------------------------------------------>
+    <body>        
+    <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a class="brand-logo">NPSS Announcements</a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="Announcement%20Filter%20-%20Teacher.html">Home</a></li>
+            <li><a href="All%20Announcements%20(Table)%20-%20Teacher.html">All Announcements</a></li>
+            <li class="active"><a href="Announcement%20Creation%20-%20Teacher.html">Announcement Creation</a></li>
+            <li><a href="Help%20&%20Settings%20-%20Teacher.html">Help & Settings</a></li>
+            <li><a href="Logout.html">Log Out</a></li>
+        </ul>
+      </div>
+    </nav>
+    </div>
+<!-------------------------------------------------- ANNOUNCEMENT CREATION --------------------------------------------->
+        <br>
+        <br>
+            <div>
+                <center>
+<!-------------------------------------------------------- USERNAME ---------------------------------------------------->
+                    <input type="text" id="userName" placeholder="Teacher Name"></input>
+        <br>
+<!--------------------------------------------------------- TITLE ------------------------------------------------------>
+                    <input type="text" id="title" placeholder="Title"></input>
+        <br>
+<!--------------------------------------------------------- DATE ------------------------------------------------------->
+          <input type="date" id="date">
+<!--------------------------------------------------------- TIME ------------------------------------------------------->
+          <input type="time" id="time">
+        <br>
+<!---------------------------------------------------- CATEGORY SELECT ------------------------------------------------->
+        <br> 
+            <select id="categoryFilter">
+                <option value="" disabled selected>Select Category Of Your Club</option>
+                <option value="All">School Wide</option>
+                <option value="Team Sports">Team Sports</option>
+                <option value="Individual Sports">Individual Sports</option>
+                <option value="Arts">Arts</option>
+                <option value="Technology">Technology</option>
+                <option value="Language">Language</option>
+                <option value="Social">Social</option>
+            </select> 
+<!------------------------------------------------------ CLUB SELECT --------------------------------------------------->
+            <select id="clubSelect">
+                <option value="" disabled selected>Select Your Club</option>
+                <option value="Anime Club">Anime Club</option>
+                <option value="Athletic Council">Athletic Council</option>
+                <option value="Beyond 40">Beyond 40</option>
+                <option value="Photography Club">Photography Club</option>
+                <option value="SAC">SAC</option>
+            </select>        
+        <br>
+        <br>
+<!----------------------------------------------------- GENDER SELECT -------------------------------------------------->
+            <select id="genderSelect">
+                <option value="" disabled selected>Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Both">Both</option>
+            </select>
+<!------------------------------------------------------ GRADE SELECT -------------------------------------------------->    
+          <select id="gradeSelect">
+              <option value="" disabled selected>Select Grade</option>
+              <option value="09">Grade 09</option>
+              <option value="10">Grade 10</option>
+              <option value="11">Grade 11</option>
+              <option value="12">Grade 12</option>
+              <!--<option value="">Junior</option>
+              <option value="">Senior</option>-->
+              <option value="All">All</option>
+          </select>
+        <br>
+        <br>
+<!----------------------------------------------------- ANNOUNCEMENT --------------------------------------------------->
+            <textarea id="content" placeholder="Enter Announcement Here"></textarea>   
+        <br>
+<!------------------------------------------------------- SUBMIT ------------------------------------------------------->
+        <input id="submitbutton" class="btn waves-effect waves-light" type="button" value="Submit" onclick="getData()"></input>
+        <br>
+        <br>
+                </center>
+            </div>
+    </body>
+</html>

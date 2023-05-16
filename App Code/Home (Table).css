@@ -1,0 +1,63 @@
+/* ARKIN MODI * ICS3UR-A * DECEMBER 15, 2015 */
+
+/*************************************
+************** NAVBAR ****************
+*************************************/
+nav {
+  color: #fff;
+  background-color: #FF5722;
+  width: 100%;
+  height: 56px;
+  line-height: 56px; }
+  nav a {
+    color: #fff; }
+  nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+      width: auto;
+  }
+a {
+    text-decoration: none;
+    color: black;
+    font-family:raleway;
+    font-weight: 200;
+}
+a.navTitle {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    white-space: nowrap;
+    margin-left: 0.5%;
+  }
+/*************************************
+************** FILTER ****************
+*************************************/
+#filterButton{
+    float: right;
+    margin-right: 0.5%;
+}
+/*************************************
+************** TABLE *****************
+*************************************/
+#table {
+    
+}
+#tagClubSelect {
+    width: 10%;
+}
+#announcementDate {
+    width: 8%;
+}
+#announcementTime {
+    width: 5%;
+}
+#announcementUserName {
+    width: 10%;
+}
+#announcementTitle {
+    width: 22%;
+}
+#announcementContent {
+    width: 45%
+}

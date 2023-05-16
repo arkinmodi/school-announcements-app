@@ -1,0 +1,69 @@
+<!-- ARKIN MODI * ICS3UR-A * DECEMBER 09, 2015 -->
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="Announcement%20Filter.css">
+    <link rel="stylesheet" href="materialize.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="Announcement%20Filter.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!------------------------------------------------------- TAB HEADER ---------------------------------------------------->
+    <head>
+        <title>NPSS Announcements - Filter</title>
+        <link rel="icon" href="NPSS%20Viking.png" type="image/gif" sizes="24x24">
+    </head>
+<!--------------------------------------------------------- NAVBAR ------------------------------------------------------>
+    <body>        
+    <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a class="brand-logo">NPSS Announcements</a>
+        <ul class="right hide-on-med-and-down">
+            <li class="active"><a href="Announcement%20Filter%20-%20Student.html">Home</a></li>
+            <li><a href="All%20Announcements%20(Table)%20-%20Student.html">All Announcements</a></li>
+            <li><a href="Help%20&%20Settings%20-%20Student.html">Help & Settings</a></li>
+            <li><a href="Logout.html">Log Out</a></li>
+        </ul>
+      </div>
+    </nav>
+    </div>
+        
+<!------------------------------------------------------ DROPDOWN FILTER ------------------------------------------------------>
+    <center>
+        <p>Must Fill Out All Fields</p>
+<!------------------------------------------------------ CATEGORY FILTER ------------------------------------------------------>
+            <select id="categoryFilter" multiple>
+                <option value="null" disabled selected>Select Your Category</option>
+                <option value="Team Sports">Team Sports</option>
+                <option value="Individual Sports">Individual Sports</option>
+                <option value="Arts">Arts</option>
+                <option value="Technology">Technology</option>
+                <option value="Language">Language</option>
+                <option value="Social">Social</option>
+            </select>
+        <br>
+        <br>
+<!------------------------------------------------------- GENDER FILTER ------------------------------------------------------->
+            <select id="genderSelect">
+                <option value="null" disabled selected>Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        <br>
+        <br>
+<!-------------------------------------------------------- GRADE FILTER ------------------------------------------------------->
+            <select id="gradeSelect">
+                <option value="null" disabled selected>Select Grade</option>
+                <option value="09">Grade 09</option>
+                <option value="10">Grade 10</option>
+                <option value="11">Grade 11</option>
+                <option value="12">Grade 12</option>
+            </select>
+<!---------------------------------------------------------- SUBMIT ----------------------------------------------------------->
+        <br>
+        <br>
+            <a href="Home%20(Table)%20-%20Student.html" target="_self">
+                <input id="submitButton" class="btn waves-effect waves-light" type="button" value="Submit" onclick="getData()">
+                </input>
+            </a>
+    </center> 

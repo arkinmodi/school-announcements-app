@@ -1,0 +1,51 @@
+/* ARKIN MODI * ICS3UR-A * NOVEMBER 26, 2015 */
+
+/*************************************
+************** NAVBAR ****************
+*************************************/
+nav {
+  color: #fff;
+  background-color: #FF5722;
+  width: 100%;
+  height: 56px;
+  line-height: 56px; }
+  nav a {
+    color: #fff; }
+  nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+      width: auto;
+  }
+a {
+    text-decoration: none;
+    color: black;
+    font-family:raleway;
+    font-weight: 200;
+}
+/*************************************
+************** CARDS *****************
+*************************************/
+p {
+    font-family: raleway;
+}
+span {
+    font-family: raleway;
+}
+.chip {
+    font-family: raleway;
+    margin-left: inherit;
+    
+}
+#announcementDate {
+    text-align: center;
+    font-weight: 200;
+}
+#announcementTime {
+    text-align: center;
+    font-weight: 200;
+}
+.cols12m6 {
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+}

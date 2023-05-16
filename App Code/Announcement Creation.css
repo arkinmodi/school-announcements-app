@@ -1,0 +1,60 @@
+/* ARKIN MODI * ICS3UR-A * NOVEMBER 26, 2015 */
+
+/*************************************
+************** NAVBAR ****************
+*************************************/
+nav {
+  color: #fff;
+  background-color: #FF5722;
+  width: 100%;
+  height: 56px;
+  line-height: 56px; }
+  nav a {
+    color: #fff; }
+  nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+      width: auto;
+  }
+a {
+    text-decoration: none;
+    color: black;
+    font-family:raleway;
+    font-weight: 200;
+}
+
+/*************************************
+************ TEXTBOXES ***************
+*************************************/
+#userName {
+    width: 20%;
+}
+input {
+    text-align: center;
+}
+#title {
+    width: 20%;
+}
+#content{
+    width: 50%;
+    height: 200px;
+    text-align: center;
+}
+#clubSelect {
+    width: 20%;
+}
+#genderSelect {
+    width: 20%;
+}
+#gradeSelect {
+    width: 20%;
+}
+#categoryFilter {
+    width: 20%;
+}
+#time {
+    width: 15%;
+}
+#date {
+    width: 15%;
+}

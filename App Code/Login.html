@@ -1,0 +1,55 @@
+<!-- ARKIN MODI * ICS3UR-A * NOVEMBER 26, 2015 -->
+<!DOCTYPE html>
+<html>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="materialize.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+    
+    <script src="Login.js"></script>
+    
+<!------------------------------------------------------- TAB HEADER ---------------------------------------------------->    
+    <head>
+        <title>NPSS Announcements</title>
+        <link rel="icon" href="NPSS%20Viking.png" type="image/gif" sizes="24x24">
+    </head>
+<!--------------------------------------------------------- NAVBAR ------------------------------------------------------>
+    <body>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <a class="brand-logo-center" href="Login.html"><center>North Park Secondary School Announcements</center></a>
+                </div>
+            </nav>
+        </div>
+<!--------------------------------------------------------- LOGIN ------------------------------------------------------>
+        <br>
+        <br>
+<!--Student Login-->
+            <div id="student">
+                <center>
+                    <input id="userName" placeholder="Student Number" type="text"></input>
+        <br>
+                    <input id="passWord" placeholder="Password" type="password"></input>
+        <br>
+        <br>
+                    <input id="submitbutton" class="btn waves-effect waves-light" type="button" value="Submit" onclick="getUser()"></input>
+                </center>
+        <br>
+                    <center><div id="studentOutput"></div></center>
+</div>
+<!--Teacher Login-->
+            <div id="teacher">
+                <center>
+                    <input id="teacherName" placeholder="Teacher Number" type="text"></input>
+        <br>
+                    <input id="teacherPassWord" placeholder="Password" type="password"></input>
+        <br>
+        <br>
+                    <input id="submitbutton" class="btn waves-effect waves-light" type="button" value="Submit" onclick="getTeacher()"></input>
+                </center>
+        <br>
+                    <center><div id="teacherOutput"></div></center>
+            </div>
+    </body>
+</html>
